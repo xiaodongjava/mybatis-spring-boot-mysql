@@ -1,0 +1,16 @@
+/target
+
+target/
+bin/
+.project
+.settings/
+logs
+.tomcatplugin;
+/src/main/webapp/.#webclasspath
+.#webclasspath
+/work/
+/tomcat*
+/catalina.base*
+/.idea
+.classpath
+.tern-project
