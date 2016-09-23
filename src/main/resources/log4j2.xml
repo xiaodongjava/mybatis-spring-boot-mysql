@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration monitorInterval="60">
 	<Properties>
-		<Property name="appName">account-soft</Property>
+		<Property name="appName">mybatis-spring-boot-mysql</Property>
 		<Property name="logPath">/home/logs/${appName}</Property>
 	</Properties>
 	<Appenders>
@@ -21,7 +21,7 @@
 	<Loggers>
 		<Logger name="org.apache.log4j.xml" level="info" />
 		<!-- project default level -->
-		<logger name="com.snowstore.log" level="debug" />
+		<logger name="com.mybatis.sample" level="debug" />
 		<logger name="org.springframework" level="info" />
 		<!--log4jdbc -->
 		<logger name="jdbc.sqltiming" level="debug" />
